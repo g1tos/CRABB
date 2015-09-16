@@ -1,2 +1,2 @@
 # CRABB
-Qgis plugin for geocoding belgian Adresses
+Qgis plugin for geocoding Belgian addresses
