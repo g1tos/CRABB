@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=BAG
+qgisMinimumVersion=2.0
+description=Geolocate by official addresses
+version=0.1
+author=Peter Nuyts / Gitos
+email=peter@gitos.be
+
+about=This plugin uses the official addresses from Belgium for geolocation
+
+tracker=https://github.com/g1tos/CRABB/issues
+repository=https://github.com/g1tos/CRABB
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=Geolocation, CRAB
+
+homepage=https://github.com/g1tos/CRABB
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
